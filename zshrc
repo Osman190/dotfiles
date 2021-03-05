@@ -111,6 +111,7 @@ alias tsmd="transmission-daemon"
 alias zs="source ~/.zshrc"
 alias chrome="open -a \"Google Chrome\""
 alias lvl="echo $SHLVL"
+alias exa="exa -laFh --git"
 
 ZSH_ALIAS_FINDER_AUTOMATIC="true"
 
@@ -162,4 +163,3 @@ echo 'Hello world I just start hacking'
 function mkcd() {
   mkdir -p "$@" && cd "$_";
 }
-echo "I just append some stuff from the terminal"
