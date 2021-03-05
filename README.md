@@ -12,3 +12,4 @@ Creating my dotflies repo to save configs.
 - Finder dev env
 - Trackpad (Three Finger Drag and Tap to Click)
 - Git (congfig and SSH)
+- Alfred (turn off Spotlight shortcut and use for Alfred )
