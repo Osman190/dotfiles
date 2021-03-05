@@ -131,6 +131,9 @@ export NVM_DIR="$HOME/.nvm"
 # Include autojump
 [ -f /opt/homebrew/etc/profile.d/autojump.sh ] && . /opt/homebrew/etc/profile.d/autojump.sh
 
+# My Variables
+# Add Visual Studio Code (code)
+export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
 export PERL_MM_OPT="INSTALL_BASE=$HOME/perl5"
 export PATH="/opt/homebrew/opt/openssl@1.1/bin:$PATH"
 export LDFLAGS="-L/opt/homebrew/opt/openssl@1.1/lib"
@@ -149,9 +152,9 @@ export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
 export LDFLAGS="-L/opt/homebrew/opt/ruby/lib"
 export CPPFLAGS="-I/opt/homebrew/opt/ruby/include"
 export PKG_CONFIG_PATH="/opt/homebrew/opt/ruby/lib/pkgconfig"
-
+export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 source /opt/homebrew/share/zsh-history-substring-search/zsh-history-substring-search.zsh
-echo 'Hello World'
+echo 'Hello world I just start hacking'
 
 # Handy Functions
 function mkcd() {
