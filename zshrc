@@ -152,6 +152,7 @@ export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
 export LDFLAGS="-L/opt/homebrew/opt/ruby/lib"
 export CPPFLAGS="-I/opt/homebrew/opt/ruby/include"
 export PKG_CONFIG_PATH="/opt/homebrew/opt/ruby/lib/pkgconfig"
+# heilight man or help page useing bat ;)
 export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 source /opt/homebrew/share/zsh-history-substring-search/zsh-history-substring-search.zsh
 echo 'Hello world I just start hacking'
