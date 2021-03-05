@@ -112,6 +112,9 @@ alias zs="source ~/.zshrc"
 alias chrome="open -a \"Google Chrome\""
 alias lvl="echo $SHLVL"
 alias exa="exa -laFh --git"
+alias bbd="brew bundle dump --force --describe"
+# alias trail="<<<${(F)path}"
+alias man=batman
 
 ZSH_ALIAS_FINDER_AUTOMATIC="true"
 
@@ -136,6 +139,9 @@ export NVM_DIR="$HOME/.nvm"
 # Add Visual Studio Code (code)
 export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
 export HOMEBREW_CASK_OPTS="--no-quarantine"
+# export NULLCMD=bat
+# export N_PREFIX="$HOME/.n"
+# export PREFIX="$N_PREFIX"
 export PERL_MM_OPT="INSTALL_BASE=$HOME/perl5"
 export PATH="/opt/homebrew/opt/openssl@1.1/bin:$PATH"
 export LDFLAGS="-L/opt/homebrew/opt/openssl@1.1/lib"
@@ -154,9 +160,16 @@ export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
 export LDFLAGS="-L/opt/homebrew/opt/ruby/lib"
 export CPPFLAGS="-I/opt/homebrew/opt/ruby/include"
 export PKG_CONFIG_PATH="/opt/homebrew/opt/ruby/lib/pkgconfig"
+export LDFLAGS="-L/opt/homebrew/opt/icu4c/lib"
+export CPPFLAGS="-I/opt/homebrew/opt/icu4c/include"
+export PKG_CONFIG_PATH="/opt/homebrew/opt/icu4c/lib/pkgconfig"
+export PATH="/opt/homebrew/opt/icu4c/bin:$PATH"
+export PATH="/opt/homebrew/opt/icu4c/sbin:$PATH"
 # heilight man or help page useing bat ;)
-export MANPAGER="sh -c 'col -bx | bat -l man -p'"
+# export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 source /opt/homebrew/share/zsh-history-substring-search/zsh-history-substring-search.zsh
+
+
 echo 'Hello world I just start hacking'
 
 # Handy Functions
