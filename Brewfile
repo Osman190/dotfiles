@@ -23,6 +23,8 @@ brew "httpie"
 brew "jq"
 # Curses-based tool for viewing and analyzing log files
 brew "lnav"
+# Mac App Store command-line interface
+brew "mas"
 # Port scanning utility for large networks
 brew "nmap"
 # Manage multiple Node.js versions
@@ -95,6 +97,8 @@ cask "nordvpn"
 cask "postman"
 # Move and resize windows using keyboard shortcuts or snap areas
 cask "rectangle"
+# Screen recording and video editing software
+cask "screenflow"
 # Instant messaging application focusing on security
 cask "signal"
 # Video chat, voice call and instant messaging application
@@ -125,3 +129,4 @@ cask "whatsapp"
 cask "zenmap"
 # Video communication and virtual meeting platform
 cask "zoom"
+mas "Snappy", id: 512617038
