@@ -160,3 +160,4 @@ echo 'Hello world I just start hacking'
 function mkcd() {
   mkdir -p "$@" && cd "$_";
 }
+echo "I just append some stuff from the terminal"
