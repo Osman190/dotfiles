@@ -170,7 +170,7 @@ export PATH="/opt/homebrew/opt/icu4c/sbin:$PATH"
 source /opt/homebrew/share/zsh-history-substring-search/zsh-history-substring-search.zsh
 
 
-echo 'Hello world I just start hacking'
+echo 'Hello from .zshrc'
 
 # Handy Functions
 function mkcd() {
